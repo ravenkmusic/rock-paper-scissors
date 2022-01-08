@@ -33,7 +33,7 @@ num_choices = len(choices)
 
 users_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 
-if users_choice >= 3 or users_choice <0:
+if users_choice >= 3 or users_choice < 0:
   print("You have entered an invalid number. You lose.")
 else:
   print(f"You chose: {choices[users_choice]}")
